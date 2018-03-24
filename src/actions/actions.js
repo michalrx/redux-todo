@@ -1,6 +1,4 @@
-import { ADD_TODO } from './types'
-import { INCREASE_COUNTER } from "./types";
-import { DECREASE_COUNTER } from "./types";
+import { ADD_TODO, INCREASE_COUNTER, DECREASE_COUNTER } from './types'
 
 export const addTodo = (text) => {
     const addTodoAction = {
